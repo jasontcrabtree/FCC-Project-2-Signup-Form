@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>FCC Project 2</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<span class="disclaimer">
+				<strong>Note:</strong> This is a concept project, unfotunately not a
+				real program! (For now!) <a href="#footer">Learn more</a>
+			</span>
+			<section class="section-description">
+				<h1 id="title">Design Review: Sign-up Form</h1>
+				<p id="description">
+					As a designer, receiving, giving and taking feedback is one of the
+					most important skills you'll ever learn.
+				</p>
+				<p>
+					Leveling up your design reviews can directly improve your skills and
+					career.
+				</p>
+				<p
+					>Design Review helps you get there. Personalised, targetted design
+					feedback. Everything we do is moderated through a strong
+					<a href="">Code of Conduct</a>, a inclusive community and a commitment
+					to helping you succeed.
+				</p>
+				<p>Sign up today to hear about all future events.</p>
+			</section>
+			<form action="" id="survey-form">
+				<fieldset>
+					<legend>Your Info</legend>
+
+					<p class="form-info">
+						We collect your name and email to invite you to future events.
+						Please share the name you feel most comfortable with (in-person name
+						or online handle).
+					</p>
+
+					<div class="form-group">
+						<label for="name" id="name-label">Name*</label>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder="Your name"
+							required
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="email" id="email-label">Email Address*</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							required
+							placeholder="Your email address"
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="number" id="number-label">
+							Design Experience:
+						</label>
+						<input
+							type="number"
+							name="number"
+							id="number"
+							min="0"
+							max="9"
+							placeholder="---"
+							required
+						/>
+						<label for="">Years</label>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>A little bit about you:</legend>
+
+					<p class="form-info">
+						We use this information to understand what people are seeking from
+						our events. Please give the answer your feel most comfortable with —
+						everyone is welcome.
+					</p>
+
+					<div class="form-group">
+						<label for="dropdown"> Where do you typically do design? </label>
+						<select name="dropdown" id="dropdown" class="select-style">
+							<option value="">Options</option>
+							<option value="1">Paid Designer</option>
+							<option value="2">Student Designer</option>
+							<option value="4">Personal Projects</option>
+							<option value="4">Self-employed</option>
+							<option value="4">Freelance</option>
+						</select>
+					</div>
+
+					<div class="form-group checkboxes">
+						<label for="checkbox">Contribution Preference:</label>
+						<br />
+						<label for="checkbox">
+							Submit Designs
+							<input
+								type="checkbox"
+								name="result"
+								id="checkbox"
+								value="submit"
+							/>
+						</label>
+
+						<label for="checkbox">
+							Review Designs
+							<input
+								type="checkbox"
+								name="result"
+								id="checkbox"
+								value="review"
+							/>
+						</label>
+
+						<label for="checkbox">
+							Give Feedback
+							<input
+								type="checkbox"
+								name="result"
+								id="checkbox"
+								value="feedback"
+							/>
+						</label>
+
+						<label for="checkbox">
+							Watch & learn
+							<input
+								type="checkbox"
+								name="result"
+								id="checkbox"
+								value="observe"
+							/>
+						</label>
+
+						<label for="checkbox">
+							Facilitate
+							<input
+								type="checkbox"
+								name="result"
+								id="checkbox"
+								value="facilitate"
+							/>
+						</label>
+					</div>
+
+					<div class="form-group">
+						<label for="radio">Design Review Experience:</label>
+						<br />
+						<label for="radio">
+							I've participated in design reviews before
+							<input type="radio" name="radio" id="radio" value="win" />
+						</label>
+						<label for="radio">
+							I've never participated in design reviews
+							<input type="radio" name="radio" id="radio" value="loss" />
+						</label>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>Submit</legend>
+
+					<p class="form-info submit-info">
+						Before you click the big green button, is there anything else you'd
+						like us know? Things we'd really like to know about:
+					</p>
+					<ul>
+						<li>Your goals</li>
+						<li>Your fears & worries</li>
+						<li>How you heard about us</li>
+						<li>What you're hoping to learn</li>
+					</ul>
+					<p class="form-info submit-info">
+						Or, anything inbetween! We love hearing your story.</p
+					>
+
+					<div class="form-group">
+						<label for="textarea">
+							Extra comments
+							<textarea
+								name="textarea"
+								id="textarea"
+								cols="48"
+								rows="8"
+							></textarea>
+						</label>
+					</div>
+
+					<div class="form-group buttons-finish">
+						<input type="reset" value="Clear" />
+
+						<input type="submit" value="Submit" id="submit" />
+					</div>
+				</fieldset>
+			</form>
+		</main>
+
+		<footer id="footer">
+			<p>
+				This page was designed and built by
+				<a href="https://jasontcrabtree.com/"> @jasontcrabtree </a> for the
+				FreeCodeCamp Responsive Web Design
+				<a
+					href="https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/"
+				>
+					Certificate.
+				</a>
+			</p>
+			<p>
+				Hosted on
+				<a href="https://www.netlify.com/"> Netlify.</a>
+				See the code on
+				<a href="https://github.com/jasontcrabtree/FCC-project-1">
+					Github
+				</a>
+			</p></footer
+		>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>
